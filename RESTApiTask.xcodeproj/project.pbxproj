@@ -7,19 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF1B35A02A3117BE00169387 /* UserDefaultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1B359F2A3117BE00169387 /* UserDefaultsController.swift */; };
+		BF6A55992A28C11C00ADDF29 /* PurchaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6A55982A28C11B00ADDF29 /* PurchaseViewController.swift */; };
+		BF6A559B2A28C1D700ADDF29 /* PurchaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6A559A2A28C1D700ADDF29 /* PurchaseModel.swift */; };
+		BF6A559E2A28C1FC00ADDF29 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = BF6A559D2A28C1FC00ADDF29 /* Realm */; };
+		BF6A55A02A28C1FC00ADDF29 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = BF6A559F2A28C1FC00ADDF29 /* RealmSwift */; };
+		BF6A55A32A28C29300ADDF29 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6A55A22A28C29300ADDF29 /* DataManager.swift */; };
+		BF6A55A92A29273D00ADDF29 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6A55A82A29273D00ADDF29 /* Movie.swift */; };
+		BF6A55AB2A2927AB00ADDF29 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6A55AA2A2927AB00ADDF29 /* NetworkController.swift */; };
+		BF6A55AD2A2928EC00ADDF29 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6A55AC2A2928EC00ADDF29 /* MoviesTableViewController.swift */; };
+		BF6A55AF2A292B2200ADDF29 /* Genre.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6A55AE2A292B2200ADDF29 /* Genre.swift */; };
+		BF6A55B72A2933F300ADDF29 /* MovieRealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6A55B62A2933F300ADDF29 /* MovieRealmModel.swift */; };
 		BFB112E72A228E9000E156D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB112E62A228E9000E156D6 /* AppDelegate.swift */; };
 		BFB112E92A228E9000E156D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB112E82A228E9000E156D6 /* SceneDelegate.swift */; };
 		BFB112EE2A228E9000E156D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB112EC2A228E9000E156D6 /* Main.storyboard */; };
 		BFB112F02A228E9100E156D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFB112EF2A228E9100E156D6 /* Assets.xcassets */; };
 		BFB112F32A228E9100E156D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB112F12A228E9100E156D6 /* LaunchScreen.storyboard */; };
-		BFB112FE2A228F8400E156D6 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB112FD2A228F8400E156D6 /* MoviesTableViewController.swift */; };
-		BFB113002A228FB000E156D6 /* MoviesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB112FF2A228FB000E156D6 /* MoviesModel.swift */; };
-		BFB113022A228FFE00E156D6 /* GenreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB113012A228FFE00E156D6 /* GenreModel.swift */; };
-		BFB113042A22902600E156D6 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB113032A22902600E156D6 /* NetworkManager.swift */; };
 		BFB113072A22A08F00E156D6 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BFB113062A22A08F00E156D6 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF1B359F2A3117BE00169387 /* UserDefaultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsController.swift; sourceTree = "<group>"; };
+		BF6A55982A28C11B00ADDF29 /* PurchaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseViewController.swift; sourceTree = "<group>"; };
+		BF6A559A2A28C1D700ADDF29 /* PurchaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseModel.swift; sourceTree = "<group>"; };
+		BF6A55A22A28C29300ADDF29 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BF6A55A82A29273D00ADDF29 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		BF6A55AA2A2927AB00ADDF29 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		BF6A55AC2A2928EC00ADDF29 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		BF6A55AE2A292B2200ADDF29 /* Genre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Genre.swift; sourceTree = "<group>"; };
+		BF6A55B62A2933F300ADDF29 /* MovieRealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRealmModel.swift; sourceTree = "<group>"; };
 		BFB112E32A228E9000E156D6 /* RESTApiTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RESTApiTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB112E62A228E9000E156D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFB112E82A228E9000E156D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,10 +43,6 @@
 		BFB112EF2A228E9100E156D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFB112F22A228E9100E156D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFB112F42A228E9100E156D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFB112FD2A228F8400E156D6 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
-		BFB112FF2A228FB000E156D6 /* MoviesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesModel.swift; sourceTree = "<group>"; };
-		BFB113012A228FFE00E156D6 /* GenreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreModel.swift; sourceTree = "<group>"; };
-		BFB113032A22902600E156D6 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6A55A02A28C1FC00ADDF29 /* RealmSwift in Frameworks */,
+				BF6A559E2A28C1FC00ADDF29 /* Realm in Frameworks */,
 				BFB113072A22A08F00E156D6 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +59,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF6A55A12A28C26300ADDF29 /* PurchaseTask */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A55B42A29321E00ADDF29 /* DataManager */,
+				BF6A55B32A29321000ADDF29 /* PurchaseViewController */,
+				BF6A55B22A2931F700ADDF29 /* PurchaseModel */,
+			);
+			path = PurchaseTask;
+			sourceTree = "<group>";
+		};
+		BF6A55A52A2926B100ADDF29 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A55A82A29273D00ADDF29 /* Movie.swift */,
+				BF6A55AE2A292B2200ADDF29 /* Genre.swift */,
+				BF6A55B62A2933F300ADDF29 /* MovieRealmModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BF6A55A62A2926CC00ADDF29 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A55AC2A2928EC00ADDF29 /* MoviesTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		BF6A55A72A2926DA00ADDF29 /* NetworkControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A55AA2A2927AB00ADDF29 /* NetworkController.swift */,
+			);
+			path = NetworkControllers;
+			sourceTree = "<group>";
+		};
+		BF6A55B22A2931F700ADDF29 /* PurchaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A559A2A28C1D700ADDF29 /* PurchaseModel.swift */,
+			);
+			path = PurchaseModel;
+			sourceTree = "<group>";
+		};
+		BF6A55B32A29321000ADDF29 /* PurchaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A55982A28C11B00ADDF29 /* PurchaseViewController.swift */,
+			);
+			path = PurchaseViewController;
+			sourceTree = "<group>";
+		};
+		BF6A55B42A29321E00ADDF29 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A55A22A28C29300ADDF29 /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		BF6A55B52A29323400ADDF29 /* RestAPITask */ = {
+			isa = PBXGroup;
+			children = (
+				BF6A55BA2A2935A400ADDF29 /* CashingControllers */,
+				BF6A55A62A2926CC00ADDF29 /* ViewControllers */,
+				BF6A55A72A2926DA00ADDF29 /* NetworkControllers */,
+				BF6A55A52A2926B100ADDF29 /* Model */,
+			);
+			path = RestAPITask;
+			sourceTree = "<group>";
+		};
+		BF6A55BA2A2935A400ADDF29 /* CashingControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BF1B359F2A3117BE00169387 /* UserDefaultsController.swift */,
+			);
+			path = CashingControllers;
+			sourceTree = "<group>";
+		};
 		BFB112DA2A228E9000E156D6 = {
 			isa = PBXGroup;
 			children = (
@@ -64,9 +157,8 @@
 		BFB112E52A228E9000E156D6 /* RESTApiTask */ = {
 			isa = PBXGroup;
 			children = (
-				BFB112FA2A228F3E00E156D6 /* Model */,
-				BFB112FC2A228F5800E156D6 /* NetworkManager */,
-				BFB112FB2A228F4B00E156D6 /* Controller */,
+				BF6A55A12A28C26300ADDF29 /* PurchaseTask */,
+				BF6A55B52A29323400ADDF29 /* RestAPITask */,
 				BFB112E62A228E9000E156D6 /* AppDelegate.swift */,
 				BFB112E82A228E9000E156D6 /* SceneDelegate.swift */,
 				BFB112EC2A228E9000E156D6 /* Main.storyboard */,
@@ -75,31 +167,6 @@
 				BFB112F42A228E9100E156D6 /* Info.plist */,
 			);
 			path = RESTApiTask;
-			sourceTree = "<group>";
-		};
-		BFB112FA2A228F3E00E156D6 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				BFB112FF2A228FB000E156D6 /* MoviesModel.swift */,
-				BFB113012A228FFE00E156D6 /* GenreModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		BFB112FB2A228F4B00E156D6 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				BFB112FD2A228F8400E156D6 /* MoviesTableViewController.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		BFB112FC2A228F5800E156D6 /* NetworkManager */ = {
-			isa = PBXGroup;
-			children = (
-				BFB113032A22902600E156D6 /* NetworkManager.swift */,
-			);
-			path = NetworkManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +187,8 @@
 			name = RESTApiTask;
 			packageProductDependencies = (
 				BFB113062A22A08F00E156D6 /* Alamofire */,
+				BF6A559D2A28C1FC00ADDF29 /* Realm */,
+				BF6A559F2A28C1FC00ADDF29 /* RealmSwift */,
 			);
 			productName = RESTApiTask;
 			productReference = BFB112E32A228E9000E156D6 /* RESTApiTask.app */;
@@ -151,6 +220,7 @@
 			mainGroup = BFB112DA2A228E9000E156D6;
 			packageReferences = (
 				BFB113052A22A08F00E156D6 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				BF6A559C2A28C1FC00ADDF29 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = BFB112E42A228E9000E156D6 /* Products */;
 			projectDirPath = "";
@@ -179,11 +249,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFB113002A228FB000E156D6 /* MoviesModel.swift in Sources */,
-				BFB113042A22902600E156D6 /* NetworkManager.swift in Sources */,
-				BFB113022A228FFE00E156D6 /* GenreModel.swift in Sources */,
-				BFB112FE2A228F8400E156D6 /* MoviesTableViewController.swift in Sources */,
+				BF6A55AB2A2927AB00ADDF29 /* NetworkController.swift in Sources */,
+				BF6A559B2A28C1D700ADDF29 /* PurchaseModel.swift in Sources */,
+				BF6A55B72A2933F300ADDF29 /* MovieRealmModel.swift in Sources */,
+				BF6A55A92A29273D00ADDF29 /* Movie.swift in Sources */,
+				BF6A55992A28C11C00ADDF29 /* PurchaseViewController.swift in Sources */,
 				BFB112E72A228E9000E156D6 /* AppDelegate.swift in Sources */,
+				BF6A55AF2A292B2200ADDF29 /* Genre.swift in Sources */,
+				BF6A55AD2A2928EC00ADDF29 /* MoviesTableViewController.swift in Sources */,
+				BF1B35A02A3117BE00169387 /* UserDefaultsController.swift in Sources */,
+				BF6A55A32A28C29300ADDF29 /* DataManager.swift in Sources */,
 				BFB112E92A228E9000E156D6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +479,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BF6A559C2A28C1FC00ADDF29 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 		BFB113052A22A08F00E156D6 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -415,6 +498,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BF6A559D2A28C1FC00ADDF29 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF6A559C2A28C1FC00ADDF29 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		BF6A559F2A28C1FC00ADDF29 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF6A559C2A28C1FC00ADDF29 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
 		BFB113062A22A08F00E156D6 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BFB113052A22A08F00E156D6 /* XCRemoteSwiftPackageReference "Alamofire" */;
